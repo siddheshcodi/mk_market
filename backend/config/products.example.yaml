@@ -1,0 +1,6 @@
+# Development data only. Products, prices and stock come from the client's existing system (A2).
+products:
+  - { id: 6f1b0a52-0001-4d7e-9a11-000000000001, name: Milk 1L, unit: 1 L pouch, pricePaise: 6800 }
+  - { id: 6f1b0a52-0002-4d7e-9a11-000000000002, name: Milk 500ml, unit: 500 ml pouch, pricePaise: 3500 }
+  - { id: 6f1b0a52-0003-4d7e-9a11-000000000003, name: Bread, unit: 400 g, pricePaise: 4500 }
+  - { id: 6f1b0a52-0004-4d7e-9a11-000000000004, name: Rice 5kg, unit: 5 kg bag, pricePaise: 42000 }

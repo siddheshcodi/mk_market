@@ -1,0 +1,21 @@
+# Copy to config/staff.yaml and fill in the real stores and numbers from the client (../tasks.md SH-03).
+# Only numbers in this file can log in as store manager or delivery boy (BR-04, FR-G-02).
+# Changing it needs a deploy (A15). Anyone removed from the file can no longer log in.
+stores:
+  - code: STR001
+    name: MK Market - Kothrud
+    address: Kothrud, Pune 411038
+    lat: 18.5074
+    lng: 73.8077
+    manager: { name: Store Manager 1, mobile: "9000000001" }
+    deliveryBoys:
+      - { code: DB001, name: Delivery Boy 1, mobile: "9000000011" }
+      - { code: DB002, name: Delivery Boy 2, mobile: "9000000012" }
+  - code: STR002
+    name: MK Market - Aundh
+    address: Aundh, Pune 411007
+    lat: 18.5590
+    lng: 73.8077
+    manager: { name: Store Manager 2, mobile: "9000000002" }
+    deliveryBoys:
+      - { code: DB003, name: Delivery Boy 3, mobile: "9000000021" }
